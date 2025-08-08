@@ -1,0 +1,265 @@
+*{
+    background-color: green;
+    box-sizing: border-box;
+}
+.blackheart,.blackheart::before,.blackheart::after{
+    position: absolute;
+    display: inline-block;
+}
+.blackheart{
+width: 0rem;
+height: 0rem;
+border-bottom: 2rem solid black;
+border-right: 2.2rem solid white;
+border-left: 2.2rem solid white;
+top: 21rem;
+left: 25rem;
+}
+.blackheart::before,.blackheart::after{
+     content: '';
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: black;
+}
+.blackheart::before{
+    top: 1.4rem;
+    left: -2.46rem;
+}
+.blackheart::after{
+    top: 1.4rem;
+    left: -0.55rem;
+}
+.footer,.footer::before,.footer::after{
+    position: absolute;
+    display: inline-block;
+}
+.footer{
+    height: 2rem;
+    width: 1.5rem;
+    background-color: black;
+    top: 24.7rem;
+    left: 26.4rem;
+    z-index: -2;
+}
+.footer::before,.footer::after{
+    content: '';
+height: 2rem;
+width: 2rem;
+border-radius: 50%;
+background-color: white;
+}
+.footer::before{
+top: 0rem;
+left: -1.3rem;
+}
+.footer::after{
+top: 0rem;
+left:0.9rem;
+}
+.redheart,.redheart::before,.redheart::after{
+    position: absolute;
+    display:inline-block;
+}
+.redheart{
+    height: 0rem;
+    width: 0rem;
+    border-top: 2.2rem solid red;
+    border-left: 2.2rem solid white ;
+    border-right: 2.2rem solid white;
+    top: 24rem;
+    left: 43.2rem;
+}
+.redheart::before,.redheart::after{
+    content: '';
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: red;
+}
+.redheart::before{
+    top: -4.5rem;
+    left: -0.61rem;
+}
+.redheart::after{
+    top: -4.5rem;
+    left: -2.4rem;
+}
+.club,.club::before,.club::after{
+content: '';
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    display: inline-block;
+}
+.club{
+    top: 21rem;
+    left: 8rem;
+  
+}
+.club::before{
+    top: 2rem;
+    left: 1.3rem;
+}
+.club::after{
+    top: 2rem;
+    left: -1.3rem;
+}
+.clubfooter,.clubfooter::before,.clubfooter::after{
+position: absolute;
+    display: inline-block;
+}
+.clubfooter{
+    width: 1.4rem;
+    height: 2.2rem;
+    background-color: black;
+    top: 25rem;
+    left: 8.8rem;
+    z-index: -2;
+}
+.clubfooter::before,.clubfooter::after{
+    content: '';
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: white;
+}
+.clubfooter::before{
+    top: 0.2rem;
+    left: -1.4rem;
+}
+.clubfooter::after{
+    top: 0.2rem;
+    left: 0.8rem;
+}
+.card1,.card2,.card3,.card4{
+    height: 20rem;
+    width: 15rem;
+    background-color: white;
+    position: absolute;
+    border-radius: 8px;
+}
+.card1{
+    top: 15rem;
+    left: 2rem;
+    z-index: -3;
+}
+.card2{
+    top: 15rem;
+    left: 20rem;
+   z-index: -3;
+}
+.card3{
+    top: 15rem;
+    left: 38rem;
+   z-index: -1;
+}
+.card4{
+    top: 15rem;
+    left: 56rem;
+   z-index: -1;
+}
+.diamond,.diamond::before{
+     width: 0rem;
+    height: 0rem;
+    position: absolute;
+     border-left: 2.3rem solid white;
+    border-right: 2.3rem solid white;
+}
+.diamond{
+    border-top: 2.3rem solid red;
+    top:24rem;
+    left: 61.5rem;
+}
+.diamond::before{
+    content: '';
+    border-bottom: 2.3rem solid red;
+    top: -4.5rem;
+    left: -2.2rem;
+}
+#content1,#content1::after,#content2,#content2::before,#content3,#content3::after,#content4,#content4::before,
+#content5,#content5::after,#content6,#content6::before,#content7,#content7::after,#content8,#content8::before{
+font-size: 2rem;
+    position: absolute;
+    display: block;
+}
+#content1,#content2,#content3,#content4,#content5,#content6,#content7,#content8{
+      background-color: white;
+}
+#content1{
+    top: 15rem;
+    left: 2.5rem;
+}
+#content1::after{
+    content: '♣';
+    top: 1.8rem;
+    
+}
+#content2{
+    top: 32rem;
+    left: 14.5rem;
+}
+#content2::before{
+    content: '♣';
+    top: -2rem;
+    left: 0.1rem;
+}
+#content3{
+    top: 15rem;
+    left: 20.5rem;
+}
+#content3::after{
+    content: '♠';
+    top: 1.8rem;
+    left: 0.2rem;
+}
+#content4{
+    top: 32rem;
+    left: 32.5rem;
+}
+#content4::before{
+    content: '♠';
+    top: -2rem;
+    left: 0.2rem;
+}
+#content5,#content5::after,#content6,#content6::before,#content7,#content7::after,#content8,#content8::before{
+ color: red;
+}
+#content5{
+     top: 15rem;
+    left: 38.5rem;
+   }
+#content5::after{
+    content: '♥';
+    top: 1.8rem;
+    left: 0.2rem;
+}
+#content6{
+    top: 32rem;
+    left: 50.5rem;
+}
+#content6::before{
+    content: '♥';
+    top: -2rem;
+    left: 0.2rem;
+}
+#content7{
+    top: 15rem;
+    left: 56.5rem;
+}
+#content7::after{
+    content: '♦';
+    top: 1.8rem;
+    left: 0.2rem;
+}
+#content8{
+    top: 32rem;
+    left: 68.5rem;
+}
+#content8::before{
+    content: '♦';
+    left: 0.2rem;
+    top: -1.9rem;
+}
